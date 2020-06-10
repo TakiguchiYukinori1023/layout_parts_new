@@ -8,7 +8,7 @@
   background-color: #eff3f4;
 }
 
-.q2.q2＿content .picture＿sea {
+.q2.q2＿content .picture.left {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
@@ -20,7 +20,7 @@
   word-break: break-all;
 }
 
-.q2.q2＿content .picture＿kamon {
+.q2.q2＿content .picture.right {
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;

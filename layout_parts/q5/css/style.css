@@ -15,11 +15,11 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  position: absolute;
 }
 
 .q5＿square.one {
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
   z-index: 1;
@@ -27,7 +27,6 @@
 
 .q5＿square.two {
   background-color: #7084de;
-  position: absolute;
   top: 120px;
   right: 120px;
   z-index: 2;
@@ -35,7 +34,6 @@
 
 .q5＿square.three {
   background-color: #d0ecea;
-  position: absolute;
   top: 200px;
   right: 40px;
   z-index: 3;
@@ -43,7 +41,6 @@
 
 .q5＿square.four {
   background-color: #8b7a5e;
-  position: absolute;
   top: 280px;
   right: 120px;
   z-index: 4;
@@ -51,7 +48,6 @@
 
 .q5＿square.five {
   background-color: #9fd6d2;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 5;
@@ -59,7 +55,6 @@
 
 .q5＿square.six {
   background-color: #fffee4;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
@@ -67,7 +62,6 @@
 
 .q5＿square.seven {
   background-color: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
@@ -75,7 +69,6 @@
 
 .q5＿square.eight {
   background-color: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 8;
