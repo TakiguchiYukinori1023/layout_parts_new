@@ -34,8 +34,6 @@
 }
 
 .q6.q6--around.is-table .q6＿box {
-  height: 200px;
-  width: 300px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -59,11 +57,12 @@
   background-color: #fff;
 }
 
-.q6.q6--position .q6__box {
+.q6.q6--position .q6__box.is-stable,
+.q6.q6--position .q6__box.is-flexible {
   position: relative;
 }
 
-.q6__box.is-stable >.q6__box__inner {
+.q6__box.is-stable >.q6__box__inner.is-stable {
   position: absolute;
   top: 0;
   right: 0;
@@ -72,7 +71,7 @@
   margin: auto;
 }
 
-.q6__box.is-flexible >.q6__box__inner {
+.q6__box.is-flexible >.q6__box__inner.is-flexible {
   position: absolute;
   top: 50%;
   left: 50%;

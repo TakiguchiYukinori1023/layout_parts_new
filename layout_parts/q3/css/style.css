@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q3 .calorie＿table {
+.calorie＿table {
   width: 100%;
   table-layout: fixed;
 }
 
-.q3 .calorie＿table th {
+.calorie＿table th {
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
@@ -14,23 +14,24 @@
   padding: 10px;
 }
 
-.q3 .calorie＿table td {
+.calorie＿table td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
 }
 
-.q3 .calorie＿table tbody tr:nth-child(even)  {
+.calorie＿table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3 .calorie＿table th, .calorie＿table td {
+.calorie＿table th, 
+.calorie＿table td {
   border: solid #dedede 1px;
   text-align: center;
   vertical-align: middle;
 }
 
-.q3 .calorie＿table tbody tr:last-child {
+.calorie＿table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
