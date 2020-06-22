@@ -27,8 +27,59 @@
   display: table-cell;
   width: 225px;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
+.q7__box.is-table:first-child {
+  padding-left: 0;
+}
 
+.q7__inner.is-inlineblock {
+  font-size: 0;
+}
+
+.q7__box.is-inlineblock {
+  display: inline-block;
+  width: 205px;
+  vertical-align: middle;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.q7__box.is-inlineblock:first-child {
+  margin-left: 0;
+}
+
+.q7__inner.is-flex {
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: start;
+	-ms-flex-align: start;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+
+.q7__box.is-flex {
+  flex-basis: 205px;
+}
+
+.q7__inner.is-full.inline-margin {
+  font-size: 0;
+}
+
+.q7__box.is-inline-margin {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.q7__box.is-inline-margin.kotei {
+  width: 300px;
+}
+
+.q7__box.is-inline-margin.kahen {
+  width: 100%;
+  margin-left: -200px;
+  padding-left: 200px;
+}
 
 /* 回答はここに書いてね */
