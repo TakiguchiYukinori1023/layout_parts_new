@@ -78,8 +78,9 @@
 
 .q7__box.is-inline-margin.kahen {
   width: 100%;
-  margin-left: -200px;
-  padding-left: 200px;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 
 /* 回答はここに書いてね */

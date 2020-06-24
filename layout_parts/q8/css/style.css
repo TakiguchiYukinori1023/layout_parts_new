@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q8.is-transition {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
+.transition__text {
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  word-break: break-all;
+  opacity: 0;
+}
+
+.picture__car:hover {
+  transform:scale(1.5,1.5);
+  transition-duration: 0.5s;
+}
+
+.transition__text:hover {
+  opacity: 1;
+}
 /* 回答はここに書いてね */
