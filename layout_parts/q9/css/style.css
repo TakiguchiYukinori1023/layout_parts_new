@@ -12,12 +12,15 @@
   position: relative;
 }
 
-
-.q9.speech-bubble:before {
+.q9.speech-bubble:before,
+.q9.speech-bubble:after {
   content: "";
   position: absolute;
+  left: 10px;
+}
+
+.q9.speech-bubble:before {
   bottom: -38px;
-  left: 10%;
   margin-left: -24px;
   border: 20px solid transparent;
   border-top: 20px solid #fff;
@@ -25,10 +28,7 @@
 }
 
 .q9.speech-bubble:after {
-  content: "";
-  position: absolute;
   bottom: -50px;
-  left: 10%;
   margin-left: -29px;
   border: 25px solid transparent;
   border-top: 25px solid #222;

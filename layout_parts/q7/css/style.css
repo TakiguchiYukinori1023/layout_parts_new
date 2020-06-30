@@ -11,7 +11,7 @@
   width: 225px;
 }
 
-.q7__box.is-float {
+.is-float {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
