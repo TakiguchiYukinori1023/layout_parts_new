@@ -7,10 +7,14 @@
   clear: both;
 }
 
+.q7 .q7__box {
+  width: 225px;
+}
+
 .q7__box.is-float {
   float: left;
-  width: 205px;
   margin-left: 50px;
+  box-sizing: border-box;
 }
 
 .q7__box.is-float:first-child {
@@ -20,12 +24,10 @@
 .q7__inner.is-table {
   display: table;
   table-layout: fixed;
-  width: 500px;
 }
 
 .q7__box.is-table {
   display: table-cell;
-  width: 225px;
   vertical-align: middle;
   padding-left: 50px;
 }
@@ -40,10 +42,10 @@
 
 .q7__box.is-inlineblock {
   display: inline-block;
-  width: 205px;
   vertical-align: middle;
   margin-left: 50px;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .q7__box.is-inlineblock:first-child {
@@ -69,6 +71,7 @@
 
 .q7__box.is-inline-margin {
   display: inline-block;
+  vertical-align: top;
   font-size: 16px;
 }
 
