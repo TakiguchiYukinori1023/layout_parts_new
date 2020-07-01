@@ -52,14 +52,14 @@
   margin-left: 0;
 }
 
-.q7__inner.is-flex {
+.is-flex {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7__box.is-flex {
-  flex-basis: 205px;
+.is-flex_text {
+  box-sizing: border-box;
 }
 
 .is-inline-margin {
@@ -68,11 +68,11 @@
   font-size: 16px;
 }
 
-.kotei {
+.fixed{
   width: 300px;
 }
 
-.kahen {
+.variable {
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
